@@ -50,8 +50,7 @@ public class ConcursoQA {
                 case "2":
                     if(hayConfig){
                         System.out.println("Iniciando partida...");
-                        Juego nuevoJuego = new Juego();  
-                        Premio.dinero=1000;
+                        Juego nuevoJuego = new Juego();         
                         System.out.println("El nickname ingresado lo identificará durante toda la partida");
                         System.out.print("Ingrese su nickname: ");
                         String nickname = sc.nextLine();
