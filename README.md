@@ -40,7 +40,7 @@ Por defecto la opción 5 será para abandono de la partida. La respuesta correct
 Escenario 1: El jugador gana la partida
 
 ![gana1](https://www.dropbox.com/s/n2vvw75skzgdwbp/Acumulado1.JPG?dl=0)
-![gana2](https://www.dropbox.com/s/mjqi4eng6zks3ex/Acumulado2.JPG?dl=0))
+![gana2](https://www.dropbox.com/s/mjqi4eng6zks3ex/Acumulado2.JPG?dl=0)
 ![gana3](https://www.dropbox.com/s/bdg2qvlyfxlk667/Fin%20partida.JPG?dl=0)
 
 Escenario 2: El jugador abandona la partida: Elige la opción 5. Puede hacerlo en cualquier ronda.
@@ -57,5 +57,6 @@ Escenario 3: El jugador pierde la partida: El jugador selecciona una respuesta i
 - Nickname del jugador
 - Premio en $
 - Estado en que terminó la partida el jugador
+- 
 ![historial](https://www.dropbox.com/s/wmpjzdt8ednfgda/Historial.JPG?dl=0)
 
