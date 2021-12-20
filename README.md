@@ -42,9 +42,9 @@ Ingreso de las opciones disponibles: No permite iniciar el juego si no se config
 
 Escenario 1: El jugador gana la partida
 
-- ![Escenario Gana partida 1/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado1.JPG)
-- ![Escenario Gana partida 2/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado2.JPG)
-- ![Escenario Gana partida 3/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Fin%20partida.JPG)
+![Escenario Gana partida 1/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado1.JPG)
+
+![Escenario Gana partida 2/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado2.JPG)
 
 Escenario 2: El jugador abandona la partida; elige la opción 5. Puede hacerlo en cualquier ronda.
 ![Escenario abandona partida](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Abandono.JPG)
@@ -60,5 +60,6 @@ Escenario 3: El jugador pierde la partida al seleccionar una respuesta incorrect
 - Nickname del jugador
 - Premio en $
 - Estado en que terminó la partida el jugador
-- ![Historial de jugadores](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Historial.JPG)
+
+![Historial de jugadores](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Historial.JPG)
 
