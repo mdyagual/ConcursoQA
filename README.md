@@ -8,7 +8,7 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 - Toda partida finalizada es almacenada en un archivo de texto (.txt) con fecha y hora de inicio de la partida, el nickname, el resultado de la partida y el premio adquirido.
 
 
-- [Diagrama UML del reto](https://www.dropbox.com/s/v4ws1yipw6k8ks9/ConcursoQA1.png?dl=0)
+- [Diagrama UML](https://www.dropbox.com/s/v4ws1yipw6k8ks9/ConcursoQA1.png?dl=0)
 
 
 # Tecnologías usadas
@@ -27,11 +27,11 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 
 Validaciones de evitar el ingreso de datos erróneos.
 
-![ingresar datos correctos](https://www.dropbox.com/s/g2ofwwomwkydo07/Validaciones.JPG?dl=0)
+![validaciones](https://www.dropbox.com/s/g2ofwwomwkydo07/Validaciones.JPG?dl=0)
 
 Ingreso de las opciones disponibles: No permite iniciar el juego si no se configura previamente
 
-![ingresar opcion valida](https://www.dropbox.com/s/k14i29mjd2r1b6l/Configuracion.JPG?dl=0)
+![opcionesDisponibles](https://www.dropbox.com/s/k14i29mjd2r1b6l/Configuracion.JPG?dl=0)
 
 
 ## Flujo del juego
@@ -51,7 +51,7 @@ Escenario 3: El jugador pierde la partida: El jugador selecciona una respuesta i
 
 
 
-# Persistencia de datos 📘
+# Persistencia de datos
 - Los datos de cada partida se guardan en historialPartidas.txt con el siguiente formato: fechaYHora,nickname,premio,estadoPartida
 - Fecha y hora con formato AAAA-MM-DD HH:mm:ss 
 - Nickname del jugador
@@ -59,5 +59,3 @@ Escenario 3: El jugador pierde la partida: El jugador selecciona una respuesta i
 - Estado en que terminó la partida el jugador
 ![historial](https://www.dropbox.com/s/wmpjzdt8ednfgda/Historial.JPG?dl=0)
 
-
-	![persistencia de datos](https://i.ibb.co/X4F4ZNW/12.png)
