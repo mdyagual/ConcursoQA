@@ -8,7 +8,7 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 - Toda partida finalizada es almacenada en un archivo de texto (.txt) con fecha y hora de inicio de la partida, el nickname, el resultado de la partida y el premio adquirido.
 
 
-- [Diagrama UML](https://www.dropbox.com/s/v4ws1yipw6k8ks9/ConcursoQA1.png?dl=0)
+- [Diagrama UML](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/ConcursoQA1.png)
 
 
 # Tecnologías usadas
@@ -27,27 +27,30 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 
 Validaciones de evitar el ingreso de datos erróneos.
 
-- [Validacion de ingreso de datos](https://www.dropbox.com/s/g2ofwwomwkydo07/Validaciones.JPG?dl=0)
+![Validacion de ingreso de datos](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Validaciones.JPG)
 
 Ingreso de las opciones disponibles: No permite iniciar el juego si no se configura previamente
 
-- [Opciones disponibles](https://www.dropbox.com/s/k14i29mjd2r1b6l/Configuracion.JPG?dl=0)
+![Opciones disponibles](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Configuracion.JPG)
 
 
 ## Flujo del juego
-Por defecto la opción 5 será para abandono de la partida. La respuesta correcta es la que se lee como True y cambia de lugar en cada ronda. El premio aumenta $1000 por cada ronda que pasa.
+### Consideraciones
+- Por defecto, la opción 5 será para abandono de la partida. 
+- La respuesta correcta es la que se lee como True y cambia de lugar en cada ronda. 
+- El premio aumenta $1000 por cada ronda que pasa. 
 
 Escenario 1: El jugador gana la partida
 
-- [Escenario Gana partida 1/3](https://www.dropbox.com/s/n2vvw75skzgdwbp/Acumulado1.JPG?dl=0)
-- [Escenario Gana partida 2/3](https://www.dropbox.com/s/mjqi4eng6zks3ex/Acumulado2.JPG?dl=0)
-- [Escenario Gana partida 3/3](https://www.dropbox.com/s/bdg2qvlyfxlk667/Fin%20partida.JPG?dl=0)
+- ![Escenario Gana partida 1/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado1.JPG)
+- ![Escenario Gana partida 2/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Acumulado2.JPG)
+- ![Escenario Gana partida 3/3](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Fin%20partida.JPG)
 
 Escenario 2: El jugador abandona la partida; elige la opción 5. Puede hacerlo en cualquier ronda.
-- [Escenario abandona partida](https://www.dropbox.com/s/nkkgcqrno3t94z4/Abandono.JPG?dl=0)
+![Escenario abandona partida](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Abandono.JPG)
 
 Escenario 3: El jugador pierde la partida al seleccionar una respuesta incorrecta.
-- [Escenario pierde partida](https://www.dropbox.com/s/153w5ewce5wzg8l/Perdio.JPG?dl=0)
+![Escenario pierde partida](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Perdio.JPG)
 
 
 
@@ -57,5 +60,5 @@ Escenario 3: El jugador pierde la partida al seleccionar una respuesta incorrect
 - Nickname del jugador
 - Premio en $
 - Estado en que terminó la partida el jugador
-- [Historial de jugadores](https://www.dropbox.com/s/wmpjzdt8ednfgda/Historial.JPG?dl=0)
+- ![Historial de jugadores](https://github.com/mdyagual/ConcursoQA/blob/main/Screenshots/Historial.JPG)
 
