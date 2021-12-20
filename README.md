@@ -16,7 +16,7 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 - Java 1.8
 - IDE: Netbeans IDE 8.2
  
- #Inicio del programa
+# Inicio del programa
  
 - Para iniciar el programa se debe dar click derecho en la carpeta del proyecto -> Run
 
@@ -27,11 +27,11 @@ Challenge por parte de Softka U para ingreso: Concurso de preguntas y respuestas
 
 Validaciones de evitar el ingreso de datos erróneos.
 
-![validaciones](https://www.dropbox.com/s/g2ofwwomwkydo07/Validaciones.JPG?dl=0)
+- [Validacion de ingreso de datos](https://www.dropbox.com/s/g2ofwwomwkydo07/Validaciones.JPG?dl=0)
 
 Ingreso de las opciones disponibles: No permite iniciar el juego si no se configura previamente
 
-![opcionesDisponibles](https://www.dropbox.com/s/k14i29mjd2r1b6l/Configuracion.JPG?dl=0)
+- [Opciones disponibles](https://www.dropbox.com/s/k14i29mjd2r1b6l/Configuracion.JPG?dl=0)
 
 
 ## Flujo del juego
@@ -39,15 +39,15 @@ Por defecto la opción 5 será para abandono de la partida. La respuesta correct
 
 Escenario 1: El jugador gana la partida
 
-![gana1](https://www.dropbox.com/s/n2vvw75skzgdwbp/Acumulado1.JPG?dl=0)
-![gana2](https://www.dropbox.com/s/mjqi4eng6zks3ex/Acumulado2.JPG?dl=0)
-![gana3](https://www.dropbox.com/s/bdg2qvlyfxlk667/Fin%20partida.JPG?dl=0)
+- [Escenario Gana partida 1/3](https://www.dropbox.com/s/n2vvw75skzgdwbp/Acumulado1.JPG?dl=0)
+- [Escenario Gana partida 2/3](https://www.dropbox.com/s/mjqi4eng6zks3ex/Acumulado2.JPG?dl=0)
+- [Escenario Gana partida 3/3](https://www.dropbox.com/s/bdg2qvlyfxlk667/Fin%20partida.JPG?dl=0)
 
-Escenario 2: El jugador abandona la partida: Elige la opción 5. Puede hacerlo en cualquier ronda.
-![abandona](https://www.dropbox.com/s/nkkgcqrno3t94z4/Abandono.JPG?dl=0)
+Escenario 2: El jugador abandona la partida; elige la opción 5. Puede hacerlo en cualquier ronda.
+- [Escenario abandona partida](https://www.dropbox.com/s/nkkgcqrno3t94z4/Abandono.JPG?dl=0)
 
-Escenario 3: El jugador pierde la partida: El jugador selecciona una respuesta incorrecta.
-![pierde](https://www.dropbox.com/s/153w5ewce5wzg8l/Perdio.JPG?dl=0)
+Escenario 3: El jugador pierde la partida al seleccionar una respuesta incorrecta.
+- [Escenario pierde partida](https://www.dropbox.com/s/153w5ewce5wzg8l/Perdio.JPG?dl=0)
 
 
 
@@ -57,6 +57,5 @@ Escenario 3: El jugador pierde la partida: El jugador selecciona una respuesta i
 - Nickname del jugador
 - Premio en $
 - Estado en que terminó la partida el jugador
-- 
-![historial](https://www.dropbox.com/s/wmpjzdt8ednfgda/Historial.JPG?dl=0)
+- [Historial de jugadores](https://www.dropbox.com/s/wmpjzdt8ednfgda/Historial.JPG?dl=0)
 
