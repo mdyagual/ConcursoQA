@@ -137,7 +137,7 @@ public class Juego {
             }else if (selP_R.get(res-1).isCorrecto() && rondas <= 5){
                 rondas++;
                 System.out.println("¡Correcto!");
-                System.out.println("Dinero ganado en esta ronda: $"+premio);
+                System.out.println("Dinero ganado en esta ronda: $"+Premio.dinero);
                 premio+=Premio.dinero;                
                 Premio.aumentarPremio();
                
