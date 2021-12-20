@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_u2gQcGF1EeyXPKtjQGz_fg">
+  <modelElement href="ConcursoQA1.uml#_u0CLQGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0jqnkGF1EeyXPKtjQGz_fg" targetItem="_0jxVQGF1EeyXPKtjQGz_fg" sourceItem="_0jqAgGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0lBScGF1EeyXPKtjQGz_fg" targetItem="_0lDusGF1EeyXPKtjQGz_fg" sourceItem="_0k1sQGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0la7EGF1EeyXPKtjQGz_fg" targetItem="_0ldXUGF1EeyXPKtjQGz_fg" sourceItem="_0lPU4GF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0mEbUGF1EeyXPKtjQGz_fg" targetItem="_0mGQgGF1EeyXPKtjQGz_fg" sourceItem="_0lwSQGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0mZygGF1EeyXPKtjQGz_fg" sourceAnchor="144.0,0.0" targetAnchor="231.0,185.0" target="_0nHkMGF1EeyXPKtjQGz_fg" source="_0jxVQGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHU6sGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_LlxRQGF2EeyXPKtjQGz_fg" position="243.0,123.0"/>
+    <nameVisual xmi:id="_0m_BUGF1EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_010HgGF1EeyXPKtjQGz_fg" position="4.0,-43.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0m_oYGF1EeyXPKtjQGz_fg" aggregationKind="NONE" name="categoria" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_vHCm0GF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_01zgcGF1EeyXPKtjQGz_fg" position="2.0,-70.0"/>
+      <visibility xmi:id="_0nFvAWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nFvAGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0m_oYWF1EeyXPKtjQGz_fg" aggregationKind="NONE" name="">
+      <modelElement href="ConcursoQA1.uml#_vHU6sWF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_010ukGF1EeyXPKtjQGz_fg" position="-18.0,29.0"/>
+      <visibility xmi:id="_0nFvA2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nFvAmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0m-aQGF1EeyXPKtjQGz_fg" targetItem="_0nHkMGF1EeyXPKtjQGz_fg" sourceItem="_0mtUgGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0m_oYmF1EeyXPKtjQGz_fg" sourceAnchor="166.0,0.0" targetAnchor="0.0,27.0" target="_NibLMGF2EeyXPKtjQGz_fg" source="_0nHkMGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHX-AGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_NibyQGF2EeyXPKtjQGz_fg" position="243.0,123.0"/>
+    <bendpoints xmi:id="_1f6X8GF2EeyXPKtjQGz_fg" sourceY="-236" targetX="-27"/>
+    <stereotypes xmi:id="_0nGWEmF1EeyXPKtjQGz_fg" name="Reference">
+      <modelElement href="ConcursoQA1.uml#_vHYlEGF1EeyXPKtjQGz_fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0nFvBGF1EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_NnTrMGF2EeyXPKtjQGz_fg" position="-43.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0nGWEGF1EeyXPKtjQGz_fg" aggregationKind="NONE" name="">
+      <modelElement href="ConcursoQA1.uml#_vHX-AWF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_NnSdEGF2EeyXPKtjQGz_fg" position="-18.0,-56.0"/>
+      <visibility xmi:id="_0nGWFGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nGWE2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0nGWEWF1EeyXPKtjQGz_fg" aggregationKind="NONE" name="opciones" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_vHDN4GF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_NnTrMWF2EeyXPKtjQGz_fg" position="-82.0,36.0"/>
+      <visibility xmi:id="_0nG9IWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nG9IGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0oBjIGF1EeyXPKtjQGz_fg" targetItem="_0oCxQGF1EeyXPKtjQGz_fg" sourceItem="_0nsL8GF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0pF6IGF1EeyXPKtjQGz_fg" targetItem="_0pHvUGF1EeyXPKtjQGz_fg" sourceItem="_0oT3AGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0p7AkGF1EeyXPKtjQGz_fg" targetItem="_0p8OsGF1EeyXPKtjQGz_fg" sourceItem="_0pfiwGF1EeyXPKtjQGz_fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_MYpfsGF2EeyXPKtjQGz_fg" sourceAnchor="231.0,0.0" targetAnchor="50.0,76.0" dashed="true" superClass="_MYqt0GF2EeyXPKtjQGz_fg" subClass="_0nHkMGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vG7SEGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_MYqt1GF2EeyXPKtjQGz_fg" position="243.0,123.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pyhjwGF2EeyXPKtjQGz_fg" sourceAnchor="104.0,86.0" targetAnchor="196.0,0.0" target="_0ldXUGF1EeyXPKtjQGz_fg" source="_0lDusGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_pybdIGF2EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_pyhjwWF2EeyXPKtjQGz_fg"/>
+    <nameVisual xmi:id="_pyhjwmF2EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_p1Iy4GF2EeyXPKtjQGz_fg" position="-18.0,-10.5" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pyhjw2F2EeyXPKtjQGz_fg" aggregationKind="NONE" name="concursoQA" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_pyd5YGF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_p1IL0GF2EeyXPKtjQGz_fg" position="2.0,10.333333333333314" visible="false"/>
+      <visibility xmi:id="_pyhjxGF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_pyhjxWF2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pyhjxmF2EeyXPKtjQGz_fg" aggregationKind="SHARED" name="juego" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_pyfHgmF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_p1Iy4WF2EeyXPKtjQGz_fg" position="-95.0,-56.0" visible="false"/>
+      <visibility xmi:id="_pyhjx2F2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_pyhjyGF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_s1wrQGF2EeyXPKtjQGz_fg" sourceAnchor="200.0,185.0" targetAnchor="217.0,0.0" target="_0mGQgGF1EeyXPKtjQGz_fg" source="_0ldXUGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_s1sZ0GF2EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_s1wrQWF2EeyXPKtjQGz_fg"/>
+    <nameVisual xmi:id="_s1wrQmF2EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_s4cy4GF2EeyXPKtjQGz_fg" position="-13.0,-17.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_s1wrQ2F2EeyXPKtjQGz_fg" aggregationKind="NONE" name="juego" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_s1tA4GF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_s4cL0GF2EeyXPKtjQGz_fg" position="-95.0,1.0" visible="false"/>
+      <visibility xmi:id="_s1wrRGF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_s1wrRWF2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_s1wrRmF2EeyXPKtjQGz_fg" aggregationKind="SHARED" name="jugador" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_s1uPAGF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_s4cy4WF2EeyXPKtjQGz_fg" position="2.0,-57.0" visible="false"/>
+      <visibility xmi:id="_s1wrR2F2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_s1wrSGF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0XHj4GF2EeyXPKtjQGz_fg" sourceAnchor="0.0,89.0" targetAnchor="462.0,92.0" target="_0nHkMGF1EeyXPKtjQGz_fg" source="_0pHvUGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_0XFusGF2EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0XHj4WF2EeyXPKtjQGz_fg"/>
+    <nameVisual xmi:id="_0XHj4mF2EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_0ZuL8WF2EeyXPKtjQGz_fg" position="-44.0,-24.000000000000014" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0XHj42F2EeyXPKtjQGz_fg" aggregationKind="NONE" name="respuesta" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_0XFusWF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_0ZuL8GF2EeyXPKtjQGz_fg" position="-96.0,-57.0" visible="false"/>
+      <visibility xmi:id="_0XHj5GF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0XHj5WF2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0XHj5mF2EeyXPKtjQGz_fg" aggregationKind="SHARED" name="pregunta" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_0XFutGF2EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_0ZuL8mF2EeyXPKtjQGz_fg" position="18.0,2.0" visible="false"/>
+      <visibility xmi:id="_0XHj52F2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0XHj6GF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ay2C8GF3EeyXPKtjQGz_fg" sourceAnchor="0.0,92.0" targetAnchor="92.0,0.0" target="_0oCxQGF1EeyXPKtjQGz_fg" source="_0ldXUGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_ayyYkGF3EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_ay2C8WF3EeyXPKtjQGz_fg"/>
+    <bendpoints xmi:id="_d1q6wGF3EeyXPKtjQGz_fg" sourceX="-134" targetY="-160"/>
+    <nameVisual xmi:id="_ay2C8mF3EeyXPKtjQGz_fg" text="">
+      <visualProperties xmi:id="_a1a10mF3EeyXPKtjQGz_fg" position="-13.0,53.0625" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ay2C82F3EeyXPKtjQGz_fg" aggregationKind="NONE" name="juego" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_ayy_oGF3EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_a1a10WF3EeyXPKtjQGz_fg" position="-87.66666666666663,2.5" visible="false"/>
+      <visibility xmi:id="_ay2C9GF3EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_ay2C9WF3EeyXPKtjQGz_fg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ay2C9mF3EeyXPKtjQGz_fg" aggregationKind="SHARED" name="premio" navigable="true">
+      <modelElement href="ConcursoQA1.uml#_ayzmsmF3EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_a1a102F3EeyXPKtjQGz_fg" position="1.0,-120.5" visible="false"/>
+      <visibility xmi:id="_ay2C92F3EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_ay2C-GF3EeyXPKtjQGz_fg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0jqAgGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0jqnkGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0jxVQGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHTskmF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0k1sQGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0lBScGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0lDusGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHTskWF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0lPU4GF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0la7EGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0ldXUGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHVhwWF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0lwSQGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0mEbUGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0mGQgGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHVhwmF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0mtUgGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0m-aQGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0nHkMGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHUToGF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0nsL8GF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0oBjIGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0oCxQGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHVhw2F1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0oT3AGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0pF6IGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0pHvUGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHVhwGF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0pfiwGF1EeyXPKtjQGz_fg" sourceConnectionVisual="_0p7AkGF1EeyXPKtjQGz_fg" text="*&#xD;&#xA;@author Mishell Yagual Mendoza" item="_0p8OsGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vHWI0GF1EeyXPKtjQGz_fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_MYqt0GF2EeyXPKtjQGz_fg" name="Comparable" subclassedBy="_MYpfsGF2EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vG4OwWF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_MYqt0WF2EeyXPKtjQGz_fg" position="193.0,-116.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MYqt0mF2EeyXPKtjQGz_fg" name="Reference">
+      <modelElement href="ConcursoQA1.uml#_vG410GF1EeyXPKtjQGz_fg"/>
+    </stereotypes>
+    <visibility xmi:id="_MYqt02F2EeyXPKtjQGz_fg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0jxVQGF1EeyXPKtjQGz_fg" comments="_0jqAgGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0jqnkGF1EeyXPKtjQGz_fg" name="Categoria" associationsOut="_0mZygGF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vCon8WF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0jxVQWF1EeyXPKtjQGz_fg" position="99.0,315.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0jxVQmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0jxVQ2F1EeyXPKtjQGz_fg" name="nivel">
+      <modelElement href="ConcursoQA1.uml#_vHB_wGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0jxVRGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0jxVRWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0jxVRmF1EeyXPKtjQGz_fg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0jxVR2F1EeyXPKtjQGz_fg" name="Categoria">
+      <modelElement href="ConcursoQA1.uml#_vCqdIGF1EeyXPKtjQGz_fg"/>
+      <keywords xmi:id="_0jxVSGF1EeyXPKtjQGz_fg" keyword="create"/>
+      <visibility xmi:id="_0jxVSWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0jxVSmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0jxVS2F1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vCqdJGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0jxVTGF1EeyXPKtjQGz_fg" name="Categoria">
+          <modelElement href="ConcursoQA1.uml#_vCon8WF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0jxVTWF1EeyXPKtjQGz_fg" name="nivel">
+        <modelElement href="ConcursoQA1.uml#_vCqdIWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0jxVTmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0jxVT2F1EeyXPKtjQGz_fg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0jxVUGF1EeyXPKtjQGz_fg" name="toString">
+      <modelElement href="ConcursoQA1.uml#_vCqdJWF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0jxVUWF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vCrEMWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0jxVUmF1EeyXPKtjQGz_fg" name="Annotations">
+        <modelElement href="ConcursoQA1.uml#_vCsSUGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0jxVU2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0jxVVGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0jxVVWF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vCrEMGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0jxVVmF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0nHkMGF1EeyXPKtjQGz_fg" comments="_0mtUgGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0m-aQGF1EeyXPKtjQGz_fg" name="Pregunta" associationsIn="_0mZygGF1EeyXPKtjQGz_fg _0XHj4GF2EeyXPKtjQGz_fg" associationsOut="_0m_oYmF1EeyXPKtjQGz_fg" generalizations="_MYpfsGF2EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0nHkMWF1EeyXPKtjQGz_fg" position="12.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0nHkMmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0nHkM2F1EeyXPKtjQGz_fg" name="categoria">
+      <modelElement href="ConcursoQA1.uml#_vHCm0GF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0nHkNGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nHkNWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0nHkNmF1EeyXPKtjQGz_fg" name="Categoria">
+        <modelElement href="ConcursoQA1.uml#_vCon8WF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0nHkN2F1EeyXPKtjQGz_fg" name="pregunta">
+      <modelElement href="ConcursoQA1.uml#_vHCm0WF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0nHkOGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nHkOWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0nILQGF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0nILQWF1EeyXPKtjQGz_fg" name="opciones">
+      <modelElement href="ConcursoQA1.uml#_vHDN4GF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0nILQmF1EeyXPKtjQGz_fg" name="Generics">
+        <modelElement href="ConcursoQA1.uml#_vHD08GF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0nILQ2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nILRGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0nILRWF1EeyXPKtjQGz_fg" name="ArrayList">
+        <modelElement href="ConcursoQA1.uml#_vGkswGF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0XHj6WF2EeyXPKtjQGz_fg" name="respuesta">
+      <modelElement href="ConcursoQA1.uml#_0XFusWF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0XHj6mF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0XHj62F2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+      <type xmi:id="_0XHj7GF2EeyXPKtjQGz_fg" name="Respuesta">
+        <modelElement href="ConcursoQA1.uml#_vCyY8GF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0nILRmF1EeyXPKtjQGz_fg" name="toString">
+      <modelElement href="ConcursoQA1.uml#_vCuHgGF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0nILR2F1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vCuukWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0nILSGF1EeyXPKtjQGz_fg" name="Annotations">
+        <modelElement href="ConcursoQA1.uml#_vCvVoGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0nILSWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nILSmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0nILS2F1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vCuukGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0nILTGF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0nILTWF1EeyXPKtjQGz_fg" name="Pregunta">
+      <modelElement href="ConcursoQA1.uml#_vGnwEGF1EeyXPKtjQGz_fg"/>
+      <keywords xmi:id="_0nILTmF1EeyXPKtjQGz_fg" keyword="create"/>
+      <visibility xmi:id="_0nILT2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nILUGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0nILUWF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vGoXIGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0nILUmF1EeyXPKtjQGz_fg" name="Pregunta">
+          <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0nILU2F1EeyXPKtjQGz_fg" name="categoria">
+        <modelElement href="ConcursoQA1.uml#_vGnwEWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0nILVGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0nILVWF1EeyXPKtjQGz_fg" name="Categoria">
+          <modelElement href="ConcursoQA1.uml#_vCon8WF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0nILVmF1EeyXPKtjQGz_fg" name="pregunta">
+        <modelElement href="ConcursoQA1.uml#_vGnwEmF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0nILV2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0nILWGF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0nILWWF1EeyXPKtjQGz_fg" name="compareTo">
+      <modelElement href="ConcursoQA1.uml#_vGoXIWF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0nILWmF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vGplQGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0nILW2F1EeyXPKtjQGz_fg" name="Annotations">
+        <modelElement href="ConcursoQA1.uml#_vGplQWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0nILXGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0nILXWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0nILXmF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vGo-MGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0nILX2F1EeyXPKtjQGz_fg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0nILYGF1EeyXPKtjQGz_fg" name="p">
+        <modelElement href="ConcursoQA1.uml#_vGoXImF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0nILYWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0nILYmF1EeyXPKtjQGz_fg" name="Pregunta">
+          <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0nILY2F1EeyXPKtjQGz_fg" name="generarOpciones">
+      <modelElement href="ConcursoQA1.uml#_vG9HQGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0nILZGF1EeyXPKtjQGz_fg" label="-"/>
+      <cardinality xmi:id="_0nILZWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0nILZmF1EeyXPKtjQGz_fg" name="r">
+        <modelElement href="ConcursoQA1.uml#_vG9HQWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0nILZ2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0nILaGF1EeyXPKtjQGz_fg" name="ArrayList">
+          <modelElement href="ConcursoQA1.uml#_vGkswGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0ldXUGF1EeyXPKtjQGz_fg" comments="_0lPU4GF1EeyXPKtjQGz_fg" targetConnectionVisual="_0la7EGF1EeyXPKtjQGz_fg" name="Juego" associationsIn="_pyhjwGF2EeyXPKtjQGz_fg" associationsOut="_s1wrQGF2EeyXPKtjQGz_fg _ay2C8GF3EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vC01MmF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0ldXUWF1EeyXPKtjQGz_fg" position="1000.0,206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0ldXUmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0ldXU2F1EeyXPKtjQGz_fg" name="fecha">
+      <modelElement href="ConcursoQA1.uml#_vHFDEGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0ldXVGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXVWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0ldXVmF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pyiK0GF2EeyXPKtjQGz_fg" name="concursoQA">
+      <modelElement href="ConcursoQA1.uml#_pyd5YGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_pyiK0WF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_pyiK0mF2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+      <type xmi:id="_pyiK02F2EeyXPKtjQGz_fg" name="ConcursoQA">
+        <modelElement href="ConcursoQA1.uml#_vCihUGF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s1xSUGF2EeyXPKtjQGz_fg" name="jugador">
+      <modelElement href="ConcursoQA1.uml#_s1uPAGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_s1xSUWF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_s1xSUmF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+      <type xmi:id="_s1xSU2F2EeyXPKtjQGz_fg" name="Jugador">
+        <modelElement href="ConcursoQA1.uml#_vC670GF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ay2qAGF3EeyXPKtjQGz_fg" name="premio">
+      <modelElement href="ConcursoQA1.uml#_ayzmsmF3EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_ay2qAWF3EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_ay2qAmF3EeyXPKtjQGz_fg" label="*" max="-1"/>
+      <type xmi:id="_ay2qA2F3EeyXPKtjQGz_fg" name="Premio">
+        <modelElement href="ConcursoQA1.uml#_vC-mMGF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0ldXV2F1EeyXPKtjQGz_fg" name="Juego">
+      <modelElement href="ConcursoQA1.uml#_vC2qYGF1EeyXPKtjQGz_fg"/>
+      <keywords xmi:id="_0ldXWGF1EeyXPKtjQGz_fg" keyword="create"/>
+      <visibility xmi:id="_0ldXWWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXWmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0ldXW2F1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vC2qY2F1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0ldXXGF1EeyXPKtjQGz_fg" name="Juego">
+          <modelElement href="ConcursoQA1.uml#_vC01MmF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0ldXXWF1EeyXPKtjQGz_fg" name="configurarJuego" staticOperation="true">
+      <modelElement href="ConcursoQA1.uml#_vC2qZGF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0ldXXmF1EeyXPKtjQGz_fg" name="Generics">
+        <modelElement href="ConcursoQA1.uml#_vC34gGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0ldXX2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXYGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0ldXYWF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vG-8cGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0ldXYmF1EeyXPKtjQGz_fg" name="ArrayList">
+          <modelElement href="ConcursoQA1.uml#_vGkswGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0ldXY2F1EeyXPKtjQGz_fg" name="iniciarJuego">
+      <modelElement href="ConcursoQA1.uml#_vGz9UGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0ldXZGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXZWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0ldXZmF1EeyXPKtjQGz_fg" name="j">
+        <modelElement href="ConcursoQA1.uml#_vG0kYGF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0ldXZ2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0ldXaGF1EeyXPKtjQGz_fg" name="Jugador">
+          <modelElement href="ConcursoQA1.uml#_vC670GF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0ldXaWF1EeyXPKtjQGz_fg" name="p">
+        <modelElement href="ConcursoQA1.uml#_vG0kYWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0ldXamF1EeyXPKtjQGz_fg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0ldXa2F1EeyXPKtjQGz_fg" name="Pregunta">
+          <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0ldXbGF1EeyXPKtjQGz_fg" name="registrarPartida">
+      <modelElement href="ConcursoQA1.uml#_vG1LcGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0ldXbWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXbmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0ldXb2F1EeyXPKtjQGz_fg" name="j">
+        <modelElement href="ConcursoQA1.uml#_vG1LcWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0ldXcGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0ldXcWF1EeyXPKtjQGz_fg" name="Jugador">
+          <modelElement href="ConcursoQA1.uml#_vC670GF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0ldXcmF1EeyXPKtjQGz_fg" name="preguntasPartida" staticOperation="true">
+      <modelElement href="ConcursoQA1.uml#_vG_jgGF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0ldXc2F1EeyXPKtjQGz_fg" name="Array">
+        <modelElement href="ConcursoQA1.uml#_vG_jhGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0ldXdGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0ldXdWF1EeyXPKtjQGz_fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0ldXdmF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vG_jgmF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0ldXd2F1EeyXPKtjQGz_fg" name="Pregunta">
+          <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0ldXeGF1EeyXPKtjQGz_fg" name="p">
+        <modelElement href="ConcursoQA1.uml#_vG_jgWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0ldXeWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0ldXemF1EeyXPKtjQGz_fg" name="ArrayList">
+          <modelElement href="ConcursoQA1.uml#_vGkswGF1EeyXPKtjQGz_fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0mGQgGF1EeyXPKtjQGz_fg" comments="_0lwSQGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0mEbUGF1EeyXPKtjQGz_fg" name="Jugador" associationsIn="_s1wrQGF2EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vC670GF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0mGQgWF1EeyXPKtjQGz_fg" position="983.0,450.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0mGQgmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0mGQg2F1EeyXPKtjQGz_fg" name="timestamp">
+      <modelElement href="ConcursoQA1.uml#_vHFDEWF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq9xcGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0mGQhGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQhWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0mGQhmF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0mGQh2F1EeyXPKtjQGz_fg" name="nickname">
+      <modelElement href="ConcursoQA1.uml#_vHFqIGF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq-YgGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0mGQiGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQiWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0mGQimF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0mGQi2F1EeyXPKtjQGz_fg" name="premio">
+      <modelElement href="ConcursoQA1.uml#_vHFqIWF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq-YgWF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0mGQjGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQjWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0mGQjmF1EeyXPKtjQGz_fg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0mGQj2F1EeyXPKtjQGz_fg" name="estado">
+      <modelElement href="ConcursoQA1.uml#_vHFqImF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq-_kGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0mGQkGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQkWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0mGQkmF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_s1wrSWF2EeyXPKtjQGz_fg" name="juego">
+      <modelElement href="ConcursoQA1.uml#_s1tA4GF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_s1wrSmF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_s1wrS2F2EeyXPKtjQGz_fg" label="0..1" max="1"/>
+      <type xmi:id="_s1wrTGF2EeyXPKtjQGz_fg" name="Juego">
+        <modelElement href="ConcursoQA1.uml#_vC01MmF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0mGQk2F1EeyXPKtjQGz_fg" name="Jugador">
+      <modelElement href="ConcursoQA1.uml#_vC8J8GF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq-_kWF2EeyXPKtjQGz_fg"/>
+      <keywords xmi:id="_0mGQlGF1EeyXPKtjQGz_fg" keyword="create"/>
+      <visibility xmi:id="_0mGQlWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQlmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0mGQl2F1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vC8xBGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0mGQmGF1EeyXPKtjQGz_fg" name="Jugador">
+          <modelElement href="ConcursoQA1.uml#_vC670GF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0mGQmWF1EeyXPKtjQGz_fg" name="timestamp">
+        <modelElement href="ConcursoQA1.uml#_vC8xAGF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0mGQmmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0mGQm2F1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0mGQnGF1EeyXPKtjQGz_fg" name="nickname">
+        <modelElement href="ConcursoQA1.uml#_vC8xAWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0mGQnWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0mGQnmF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0mGQn2F1EeyXPKtjQGz_fg" name="toString">
+      <modelElement href="ConcursoQA1.uml#_vC8xBWF1EeyXPKtjQGz_fg"/>
+      <visualProperties xmi:id="_Jq-_kmF2EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0mGQoGF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vC9YEWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0mGQoWF1EeyXPKtjQGz_fg" name="Annotations">
+        <modelElement href="ConcursoQA1.uml#_vC9YEmF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0mGQomF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0mGQo2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0mGQpGF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vC9YEGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0mGQpWF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NibLMGF2EeyXPKtjQGz_fg" name="ArrayList" associationsIn="_0m_oYmF1EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vGkswGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_NibLMWF2EeyXPKtjQGz_fg" position="205.0,-232.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_NibLMmF2EeyXPKtjQGz_fg" name="Reference">
+      <modelElement href="ConcursoQA1.uml#_vGlT0GF1EeyXPKtjQGz_fg"/>
+    </stereotypes>
+    <visibility xmi:id="_NibLM2F2EeyXPKtjQGz_fg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0pHvUGF1EeyXPKtjQGz_fg" comments="_0oT3AGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0pF6IGF1EeyXPKtjQGz_fg" name="Respuesta" associationsOut="_0XHj4GF2EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vCyY8GF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0pHvUWF1EeyXPKtjQGz_fg" position="537.0,34.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0pHvUmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0pHvU2F1EeyXPKtjQGz_fg" name="respuesta">
+      <modelElement href="ConcursoQA1.uml#_vHEcAGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0pHvVGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0pHvVWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0pHvVmF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0pHvV2F1EeyXPKtjQGz_fg" name="correcto">
+      <modelElement href="ConcursoQA1.uml#_vHEcAWF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0pHvWGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0pHvWWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0pHvWmF1EeyXPKtjQGz_fg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0XIK8GF2EeyXPKtjQGz_fg" name="pregunta">
+      <modelElement href="ConcursoQA1.uml#_0XFutGF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0XIK8WF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0XIK8mF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+      <type xmi:id="_0XIK82F2EeyXPKtjQGz_fg" name="Pregunta">
+        <modelElement href="ConcursoQA1.uml#_vCs5YGF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0pHvW2F1EeyXPKtjQGz_fg" name="Respuesta">
+      <modelElement href="ConcursoQA1.uml#_vCzAAGF1EeyXPKtjQGz_fg"/>
+      <keywords xmi:id="_0pHvXGF1EeyXPKtjQGz_fg" keyword="create"/>
+      <visibility xmi:id="_0pHvXWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0pHvXmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0pHvX2F1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vCznFGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0pHvYGF1EeyXPKtjQGz_fg" name="Respuesta">
+          <modelElement href="ConcursoQA1.uml#_vCyY8GF1EeyXPKtjQGz_fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0pHvYWF1EeyXPKtjQGz_fg" name="respuesta">
+        <modelElement href="ConcursoQA1.uml#_vCznEGF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0pHvYmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0pHvY2F1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0pHvZGF1EeyXPKtjQGz_fg" name="esCorrecto">
+        <modelElement href="ConcursoQA1.uml#_vCznEWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0pHvZWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+        <type xmi:id="_0pHvZmF1EeyXPKtjQGz_fg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0pHvZ2F1EeyXPKtjQGz_fg" name="toString">
+      <modelElement href="ConcursoQA1.uml#_vCznFWF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0pHvaGF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vC0OIWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0pHvaWF1EeyXPKtjQGz_fg" name="Annotations">
+        <modelElement href="ConcursoQA1.uml#_vC01MGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0pHvamF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0pHva2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0pHvbGF1EeyXPKtjQGz_fg">
+        <modelElement href="ConcursoQA1.uml#_vC0OIGF1EeyXPKtjQGz_fg"/>
+        <type xmi:id="_0pHvbWF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0lDusGF1EeyXPKtjQGz_fg" comments="_0k1sQGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0lBScGF1EeyXPKtjQGz_fg" name="ConcursoQA" associationsOut="_pyhjwGF2EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vCihUGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0lDusWF1EeyXPKtjQGz_fg" position="1092.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0lDusmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_pyix4GF2EeyXPKtjQGz_fg" name="juego">
+      <modelElement href="ConcursoQA1.uml#_pyfHgmF2EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_pyix4WF2EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_pyix4mF2EeyXPKtjQGz_fg" label="*" max="-1"/>
+      <type xmi:id="_pyix42F2EeyXPKtjQGz_fg" name="Juego">
+        <modelElement href="ConcursoQA1.uml#_vC01MmF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0lDus2F1EeyXPKtjQGz_fg" name="main" staticOperation="true">
+      <modelElement href="ConcursoQA1.uml#_vCmywGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0lDutGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0lDutWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0lDutmF1EeyXPKtjQGz_fg" name="args">
+        <modelElement href="ConcursoQA1.uml#_vCmywWF1EeyXPKtjQGz_fg"/>
+        <cardinality xmi:id="_0lDut2F1EeyXPKtjQGz_fg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0lDuuGF1EeyXPKtjQGz_fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0lDuuWF1EeyXPKtjQGz_fg" name="start" staticOperation="true">
+      <modelElement href="ConcursoQA1.uml#_vCon8GF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0lDuumF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0lDuu2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0oCxQGF1EeyXPKtjQGz_fg" comments="_0nsL8GF1EeyXPKtjQGz_fg" targetConnectionVisual="_0oBjIGF1EeyXPKtjQGz_fg" name="Premio" associationsIn="_ay2C8GF3EeyXPKtjQGz_fg">
+    <modelElement href="ConcursoQA1.uml#_vC-mMGF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0oCxQWF1EeyXPKtjQGz_fg" position="774.0,458.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0oCxQmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0oCxQ2F1EeyXPKtjQGz_fg" defaultValue="1000" name="dinero" staticAttribute="true">
+      <modelElement href="ConcursoQA1.uml#_vHGRMGF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0oCxRGF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vHG4QGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0oCxRWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0oCxRmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0oCxR2F1EeyXPKtjQGz_fg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ay2C-WF3EeyXPKtjQGz_fg" name="juego">
+      <modelElement href="ConcursoQA1.uml#_ayy_oGF3EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_ay2C-mF3EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_ay2C-2F3EeyXPKtjQGz_fg" label="0..1" max="1"/>
+      <type xmi:id="_ay2C_GF3EeyXPKtjQGz_fg" name="Juego">
+        <modelElement href="ConcursoQA1.uml#_vC01MmF1EeyXPKtjQGz_fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0oCxSGF1EeyXPKtjQGz_fg" name="aumentarPremio" staticOperation="true">
+      <modelElement href="ConcursoQA1.uml#_vC_NQGF1EeyXPKtjQGz_fg"/>
+      <visibility xmi:id="_0oCxSWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0oCxSmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0p8OsGF1EeyXPKtjQGz_fg" comments="_0pfiwGF1EeyXPKtjQGz_fg" targetConnectionVisual="_0p7AkGF1EeyXPKtjQGz_fg" name="Valor">
+    <modelElement href="ConcursoQA1.uml#_vC_NQWF1EeyXPKtjQGz_fg"/>
+    <visualProperties xmi:id="_0p8OsWF1EeyXPKtjQGz_fg" position="481.0,271.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0p8OsmF1EeyXPKtjQGz_fg" label="+"/>
+    <attributes xmi:id="_0p8Os2F1EeyXPKtjQGz_fg" defaultValue="&quot;Perdio&quot;" name="PERDIO_JUEGO" staticAttribute="true">
+      <modelElement href="ConcursoQA1.uml#_vHG4QWF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0p8OtGF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vHHfUGF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0p8OtWF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0p8OtmF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0p8Ot2F1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0p8OuGF1EeyXPKtjQGz_fg" defaultValue="&quot;Abandono&quot;" name="ABANDONO_JUEGO" staticAttribute="true">
+      <modelElement href="ConcursoQA1.uml#_vHHfUWF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0p8OuWF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vHHfU2F1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0p8OumF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0p8Ou2F1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0p8OvGF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0p8OvWF1EeyXPKtjQGz_fg" defaultValue="&quot;Gano&quot;" name="GANO_JUEGO" staticAttribute="true">
+      <modelElement href="ConcursoQA1.uml#_vHIGYGF1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0p8OvmF1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vHIGYmF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0p8Ov2F1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0p8OwGF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0p8OwWF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0p8OwmF1EeyXPKtjQGz_fg" defaultValue="&quot;historialPartidas.txt&quot;" name="HISTORIAL" staticAttribute="true">
+      <modelElement href="ConcursoQA1.uml#_vHIGY2F1EeyXPKtjQGz_fg"/>
+      <stereotypes xmi:id="_0p8Ow2F1EeyXPKtjQGz_fg" name="LegacyStyledElement">
+        <modelElement href="ConcursoQA1.uml#_vHItcWF1EeyXPKtjQGz_fg"/>
+      </stereotypes>
+      <visibility xmi:id="_0p8OxGF1EeyXPKtjQGz_fg" label="+"/>
+      <cardinality xmi:id="_0p8OxWF1EeyXPKtjQGz_fg" label="1" max="1" min="1"/>
+      <type xmi:id="_0p8OxmF1EeyXPKtjQGz_fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

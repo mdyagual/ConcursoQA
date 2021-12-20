@@ -1,0 +1,6 @@
+2021-12-20 04:38:34,mdyagual,15000,Gano
+2021-12-20 04:39:54,erianbur,1000,Abandono
+2021-12-20 04:40:09,sarahmend,0,Perdio
+2021-12-20 04:43:53,mdyagual,15000,Gano
+2021-12-20 04:48:53,erianbur,1000,Abandono
+2021-12-20 04:50:03,sarahmend,0,Perdio
