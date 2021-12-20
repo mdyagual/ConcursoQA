@@ -57,6 +57,7 @@ public class ConcursoQA {
                         String nickname = sc.nextLine();
                         Jugador j = new Jugador(nuevoJuego.getFecha(),nickname);
                         nuevoJuego.iniciarJuego(j, prePartida);
+                        op="3";
                     }else{
                         System.out.println("Configure el juego en la opción 1.");
                     }
